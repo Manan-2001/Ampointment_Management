@@ -1,65 +1,4 @@
-.container-fluid{
-    background: linear-gradient(45deg, pink, lightblue);
-}
-.container{
-    border-bottom: 2px solid gray;
-    box-shadow: 2px 2px 2px  gray;
-}
-h3{
-    font-family: "Protest Guerrilla", sans-serif;
-    color: #676767;
-    font-size: 3vw;
-}
-.dashboard{
-    background: linear-gradient(30deg, blue, red);
-    -webkit-background-clip:text;
-    font-weight: 500;
-    font-family: "Montserrat", sans-serif;
-    font-size: 3vw;
-    text-align: center;
-    color: #333;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-.h3>span{
-   
-    font-size: 3vw;
-    align-items: center;
-   
-    width: 100%;
 
-}
-.h3>span:hover{
-    cursor: crosshair;
-    box-shadow:2px 2px 2px #555;
-}
-.p{
-    color: #666666;
-    font-size: 1vw;
-    font-family:"Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    float: right;
-}
-.btn2{
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    display: block;
-    align-items: center;
-    box-shadow: 1px 1px 1px rgb(117, 117, 117);
-    color: rgb(70, 70, 70);
-    border: 2px dashed rgb(87, 87, 87);
-    font-weight: 700;
-    font-family:"Montserrat", sans-serif;
-   font-size: 1.5vw;
-}
-.btn2:hover{
-    color: white;
-}
-.material-symbols-outlined{
-    font-size: 1.5vw;
-}
 body {
     align-items: center;
     justify-content: center;
@@ -133,7 +72,7 @@ body {
     border-right: none;
     box-shadow: 5px 5px 20px hotpink;
 }
-.btn1 {
+.btn {
     padding: 5px 5px;
     margin: 15px 15px 0px 15px;
     width: 10em;
@@ -144,7 +83,7 @@ body {
     transition: .5s 0s ease-out;
     box-shadow: 5px 5px 20px gray;
 }
-.btn1:hover {
+.btn:hover {
     background: linear-gradient(30deg, blue, red);
     color: white;
     font-size: 1.7rem;

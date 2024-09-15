@@ -1,0 +1,26 @@
+<!-- outer div for better design -->
+<div class="outer">
+    <h1>Login</h1>
+    <h4>Login to get Access</h4>
+    <!-- Form Started here -->
+    <div class="inner" style="align-items: center;">
+        <form style="text-align: center; align-items: center;">
+            <p>
+                <input class="in" type="email" placeholder="Type your Email" name="userName" [(ngModel)]="userName"/>
+                <img src="/assets/user.gif" autoplay loop width="70" height="50" />
+            </p>
+            <p>
+                <input class="in" type="password" placeholder="Type your Password" name="password" [(ngModel)]="password" />
+                <img src="/assets/password.gif" autoplay loop width="80" height="80" />
+            </p>
+            <p>
+                <a href="#">Forget Password?</a>
+            </p>
+            <!-- To do: normal login button with animating border -->
+            <p>
+                <input class="btn" type="submit" value="Submit" (click)="login()"/>
+            </p>
+        </form>
+    </div>
+</div>
+<br /><br /><br />
